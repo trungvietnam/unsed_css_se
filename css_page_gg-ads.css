@@ -1,0 +1,802 @@
+.ketqua {
+    font-size: 16px;
+    margin: auto 0;
+    text-transform: uppercase;
+    font-weight: 500
+}
+
+@media (max-width: 600px) {
+    .ketqua {
+        font-weight: 400;
+        font-size: 13px;
+    }
+
+}
+
+.toolbox {
+    box-shadow: 0 1px 10px #0000001a;
+    border-radius: 10px;
+    background: #FFF;
+}
+
+.toolbox:hover h3,
+.toolbox:hover p {
+    color: white !important;
+}
+
+.toolbox:hover {
+    color: white;
+    background: linear-gradient(180deg, #FF6456 0%, #FF3565 100%);
+    box-shadow: 0px 2px 10px rgb(0 0 0 / 10%);
+    opacity: 1;
+    animation-name: fade-slide;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 1s;
+}
+
+.tieu_de {
+    font-family: 'Roboto';
+    /*font-weight: 900;*/
+    /*font-size: 52px;*/
+    /*line-height: 74px;*/
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(181.34deg, #FF6456 1.14%, #FF3565 24.39%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: normal;
+    background-clip: text;
+}
+
+.primary_color {
+    background: linear-gradient(90deg, #FF6456 0, #FF3565 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    line-height: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+
+/*trung update lai code*/
+
+/*===========*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.lichkhaigiang span {
+    background: linear-gradient(180deg, #FF3565 0%, #FF6256 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.lichkhaigiang {
+    font-weight: 500;
+    margin-top: 5%;
+}
+
+span.sub_title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 74px;
+}
+
+.elementor-message.elementor-message-success {
+    display: flex;
+}
+
+img.hoatiet_giangvien {
+    position: absolute;
+    height: 158px;
+    left: 11.92px;
+    transform: rotate(298deg);
+}
+
+.title_img img {
+    height: 120px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.title_img {
+    text-align: center;
+    display: block;
+}
+
+.32 ngay>img {
+    margin-left: 13%;
+    width: 50%;
+    height: auto;
+    margin-top: 4%;
+    /*height: 290px;*/
+}
+
+.32 ngay {
+    text-align: center;
+}
+
+div#get-text-2 {
+    /*margin-top: -60px;*/
+    /*position: absolute;*/
+    /*margin-left: 10%;*/
+    text-align: center;
+}
+
+a#btn_dangkyngay {
+    background: linear-gradient(90deg, #FF6655 0%, #FF3366 100%);
+    border-radius: 6px;
+}
+
+ul.lylich i {
+    padding-right: 10px;
+    background: linear-gradient(90deg, #FF6456 0, #FF3565 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+ul.lylich li {
+    list-style: none;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4F4F4F;
+}
+
+.right h3:hover {
+    color: white;
+}
+
+.form-wrapper-component .form-content-component {
+    background-color: #F6F9FF;
+    color: var(--primary-text-color);
+    box-shadow: 0px 0 4px 0px rgba(0, 0, 0, .1);
+    width: 100%;
+    max-width: 680px;
+    margin: auto;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 0;
+    margin-bottom: 0;
+    transition: all .3s ease-in-out;
+    box-sizing: border-box;
+}
+
+.form-wrapper-component.scroll-style.default-app-theme {
+    background-color: #F6F9FF !important;
+}
+
+.ggads .slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ggads .slider .left {
+    /* margin-top: 2%; */
+    /* margin: 0% auto; */
+    /*height: 600px;*/
+    /*padding-top: 5%;*/
+    margin-left: 9%;
+    width: 700px;
+}
+
+.ggads .slider .left h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.ggads .slider .title {
+    font-size: 40px;
+    font-weight: 900;
+    color: #4F4F4F;
+    text-align: center;
+}
+
+.ggads .slider p {
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: normal;
+    font-weight: 400;
+    color: rgba(129, 116, 116, 1);
+}
+
+.ggads .slider button {
+    margin-top: 1%;
+    width: 208px;
+    height: 52px;
+}
+
+.ggads .slider .right img {
+    /*width: 100%;*/
+    height: 80%;
+    float: right;
+    /*padding: 5%;*/
+}
+
+/*=========================*/
+.ggads .card-square .right .box {
+    width: 340px;
+    height: 270px;
+    padding: 4% 3% 0% 4%;
+}
+
+.ggads .card-square .right .box:hover h3 {
+    color: white;
+}
+
+.ggads .card-square .right .box img {
+    margin-bottom: 6%;
+}
+
+.ggads .card-square .right .box p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: capitalize;
+    text-align: initial;
+}
+
+.ggads .card-square .right .box p:last-child {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    margin-top: -5%;
+}
+
+/*=========================*/
+.ggads .package h2 {
+    margin: auto;
+    text-align: center;
+}
+
+.ggads .package .box {
+    width: 95%;
+    height: 580px;
+    background: #FFFFFF;
+    border: 1px solid #E2E9F8;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ggads .package .box .border {
+    background: linear-gradient(90deg, #FF6655 0%, #FF515C 40.26%, #FF3366 100%);
+    width: 100%;
+    border-top-left-radius: 36px;
+    border-top-right-radius: 36px;
+    border-bottom-left-radius: 100% 100px;
+    border-bottom-right-radius: 100% 100px;
+    margin-bottom: 10%;
+}
+
+.ggads .package .box .border h2 {
+    background: linear-gradient(90deg, #FFF 0, #FFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: initial;
+    line-height: 2.5;
+}
+
+.ggads .package .box .text {
+    display: flex;
+    margin-left: 10%;
+}
+
+.ggads .package .box .text p {
+    width: 80%;
+    line-height: 150%;
+    margin-left: 5%;
+    text-align: initial;
+}
+
+.ggads .package .box .text i {
+    color: #00BF00;
+    line-height: 150%;
+}
+
+.ggads .package .box .click {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.ggads .package .box .click .number {
+    display: flex;
+    justify-content: center;
+}
+
+.ggads .package .box .click .number p {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: normal;
+    background: linear-gradient(270deg, #FF3665 -121.43%, #FF6256 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ggads .package .box .click .number p:last-child {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    background: linear-gradient(270deg, #FF3665 -121.43%, #FF6256 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ggads .package .box .click button {
+    margin: -2% auto 10% auto;
+}
+
+/*=========================*/
+.ggads .profile h2 {
+    margin: auto;
+    text-align: center;
+    line-height: 44px;
+}
+
+.ggads .profile .row {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.ggads .profile .row p {
+    width: 350px;
+    text-align: center;
+}
+
+.ggads .profile .row .box {
+    position: relative;
+}
+
+.ggads .profile .row .box img {
+    width: 243px;
+    height: 243px;
+    position: relative;
+    z-index: 2;
+}
+
+.ggads .profile .row .box a {
+    position: absolute;
+    z-index: 3;
+    width: 35px;
+    height: 35px;
+    line-height: 37px;
+    border-radius: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 18px 0 rgb(43 1 68 / 23%);
+}
+
+/*-------------------------*/
+.ggads .profile .row .box .facebook {
+    top: 10%;
+    right: 12%;
+}
+
+.ggads .profile .row .box .in {
+    top: 38%;
+    right: 4%;
+}
+
+.ggads .profile .row .box .twitter {
+    top: 68%;
+    right: 12%;
+}
+
+.ggads .profile .row .box .facebook {
+    color: #4267b2;
+}
+
+.ggads .profile .row .box .in {
+    color: #0077B5;
+}
+
+.ggads .profile .row .box .twitter {
+    color: #1da1f2;
+}
+
+.ggads .profile .row .box .circle {
+    width: 230px;
+    height: 230px;
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 25%;
+    z-index: 1;
+    border: double 2px transparent;
+    border-radius: 100%;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#F8F9FB)), radial-gradient(circle, #FF6456, #FF6456);
+    background-clip: content-box, border-box;
+}
+
+.ggads .profile .row .box .circle,
+.ggads .profile .row .box a {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.3s linear, opacity 0.3s linear;
+}
+
+/*=========================*/
+.result h2 {
+    margin: auto;
+}
+
+.result .row {
+    display: flex;
+    align-items: center;
+}
+
+.result .row img {
+    margin-left: -1%;
+}
+
+.result .row p {
+    font-weight: 500;
+    font-size: 16px;
+    margin: auto 0;
+    text-transform: uppercase;
+}
+
+.result button {
+    margin-top: 5%;
+}
+
+/*=========================*/
+.contact.left h2,
+.ggads .contact.left p {
+    margin: auto;
+}
+
+/*=========================*/
+.hot h2 {
+    margin: auto;
+    text-align: center;
+}
+
+.hot .row .card {
+    margin-bottom: 2%;
+    border-radius: 0px !important;
+}
+
+.hot .row .card .box {
+    padding-bottom: 10%;
+}
+
+.hot .title button {
+    position: absolute;
+    top: 15px;
+    right: 0;
+}
+
+/*=========================*/
+
+@media (min-width: 0px) and (max-width: 767px) {
+
+    /*.slider {*/
+    /*    flex-direction: column;*/
+    /*}*/
+    .slider .left {
+        margin: 0%;
+        padding-left: 0%;
+        padding-right: 0%;
+        width: 100%;
+    }
+
+    .ggads .slider .left h1 {
+        font-size: 28px;
+        font-weight: bold;
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+        line-height: 30pt;
+    }
+
+    .ggads .slider .left .title {
+        font-size: 19px;
+        font-weight: 700;
+        color: #4F4F4F;
+    }
+
+    .ggads .slider p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .ggads .slider button {
+        font-size: 18px;
+        /* margin-top: -10%; */
+        /* width: 32%; */
+        display: block;
+        margin: 0 auto;
+        /* margin-left: 33%; */
+    }
+
+    span.tieude {
+        font-size: 29pt;
+    }
+
+    div#get-text-2 {
+        margin-top: 0px;
+        position: unset;
+        margin-left: 0;
+    }
+
+    div.goi {
+        width: 45%;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+
+    .title_img img {
+        height: 50px;
+        display: none;
+    }
+
+    .ggads .slider .right img {
+        float: none;
+        width: 60%;
+        display: block;
+        margin: auto auto 3% auto;
+        padding: 0%;
+    }
+
+    /*================*/
+    .ggads .card-square {
+        height: 100%;
+        justify-content: initial;
+    }
+
+    .ggads .card-square .right {
+        justify-content: initial;
+        flex-wrap: wrap;
+    }
+
+    .ggads .card-square .right .box {
+        width: 100%;
+        height: 100%;
+        padding: 8%;
+    }
+
+    /*================*/
+    .ggads .profile h2 {
+        line-height: normal;
+    }
+
+    .ggads .profile .row {
+        text-align: center;
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+
+    .ggads .profile .row p {
+        width: 100%;
+    }
+
+    /*----------------*/
+    .ggads .profile .row .box .circle,
+    .ggads .profile .row .box a {
+        display: none;
+    }
+
+    /*================*/
+    .ggads .result .row p {
+        font-weight: 400;
+        font-size: 13px;
+    }
+
+    /*================*/
+    .ggads .package .box {
+        width: 100%;
+    }
+
+    .ggads .profile .row .box img {
+        width: 70%;
+        height: 70%;
+    }
+
+    /*================*/
+    .ggads .contact.left form#name-phone {
+        width: 90%;
+        height: 65px;
+        margin: 0 auto;
+    }
+
+    .ggads .contact.left textarea {
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+
+    .ggads .contact.left button {
+        display: block;
+        margin: 7% auto;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+    .ggads .slider {
+        flex-direction: column;
+    }
+
+    .ggads .slider .left h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .ggads .slider .left .title {
+        font-size: 34px;
+        color: #4F4F4F;
+    }
+
+    .ggads .slider p {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .ggads .slider button {
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+
+    .ggads .slider .right img {
+        float: none;
+        width: 100%;
+        display: block;
+        margin: 5% auto 5% auto;
+        padding: 0%;
+    }
+
+    /*================*/
+    .ggads .card-square {
+        margin: 0% 2% 5% 2%;
+    }
+
+    .ggads .card-square.left {
+        text-align: center;
+    }
+
+    .ggads .card-square.left p {
+        text-align: center;
+    }
+
+    .ggads .card-square .right .box {
+        width: 100%
+    }
+
+    /*================*/
+    .ggads .profile .row p {
+        width: 85%;
+        margin: auto;
+    }
+
+    .ggads .profile .row .box img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /*================*/
+    .ggads .result {
+        margin: 0% 4%;
+    }
+
+    .ggads .package .box {
+        width: 90%;
+        margin: 0 auto 10% auto;
+    }
+
+    /*================*/
+    .ggads .contact.left,
+    .ggads .contact.left p {
+        text-align: center;
+    }
+
+    .ggads .contact.right img {
+        width: 100%;
+        height: 100%;
+        margin: 0% 5%
+    }
+
+    /*================*/
+    .ggads .hot .row .card {
+        width: 100%;
+    }
+}
+
+@media (min-width: 993px) {
+    .title_img img {
+        width: auto;
+        height: 120px;
+    }
+
+    .ggads .slider .left h1 {
+        text-align: center;
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    /* Hover */
+    .ggads .card-square .right .box:hover {
+        background: linear-gradient(180deg, #FF6456 0%, #FF3565 100%);
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        opacity: 1;
+        animation-name: fade-slide;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-out;
+        animation-duration: 1s;
+    }
+
+    .ggads .card-square .right .box:hover p {
+        color: #FFFFFF;
+    }
+
+    /* Hover */
+    .ggads .package hover .box {
+        border: 1px solid #FF6256;
+        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+        transition: all 300ms linear;
+    }
+
+    .ggads .package hover .box .click button {
+        background: linear-gradient(90deg, #FF6655 0%, #FF515C 40.26%, #FF3366 100%);
+        border: 1px solid #FFFFFF;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+        color: #fff;
+        transition: all 300ms linear;
+    }
+
+    /* Hover */
+    .ggads .profile .row .box a:hover {
+        background-color: #FF6456;
+        color: #fff;
+        transition: all 300ms linear;
+    }
+
+    /* Hover */
+    .ggads .profile .row .box:hover .circle,
+    .ggads .profile .row .box:hover a {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    /*Hover*/
+    .ggads .hot .row .card:hover button {
+        background: linear-gradient(90deg, #FF6655 0%, #FF515C 40.26%, #FF3366 100%);
+        border: 1px solid #FFFFFF;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+        color: #fff;
+        transition: all 300ms
+    }
+
+    .ggads .hot .row .card:hover {
+        border: 1px solid #E2E9F8;
+        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    }
+}
+
+.box.mx-1 h3 {
+    padding: 6px 0;
+}
