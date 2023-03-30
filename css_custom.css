@@ -18,8 +18,9 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
+    text-transform: uppercase;
     line-height: normal;
-    line-height: normal;
+    font-weight: 700;
 }
 
 button#submit-button {
@@ -336,6 +337,11 @@ a.elementor-post__read-more {
     background: #FFFFFF;
 }
 
+footer .social-all {
+    display: flex;
+    justify-content: space-around;
+}
+
 /*=========================*/
 
 /*-------------------------*/
@@ -604,7 +610,7 @@ a.elementor-post__read-more {
     }
 
     .camnhanhocvien .carousel .box img {
-        width: 40%;
+        /* width: 50%; */
         height: 22%;
     }
 
@@ -927,40 +933,48 @@ a.elementor-post__read-more {
     }
 
     /*================*/
-    /* footer .box {
-				width: 50%;
-				margin: auto;
-		}
-		footer .copyright img {
-				width: 100%;
-				height: 100%;
-		}
-		footer .social-all {
-				text-align: center;
-		}
-		footer .social-all .social {
-				margin-left: 3%;
-   			margin-right: 3%;
-		}
-		footer .box .text {
-				display: flex;
-				margin: 7% 0 8%;
-						justify-content: center;
-		}
-		footer .box .title {
-				text-align: center;
-		}
-		.elementor-element-2c535fd.elementor-column > .elementor-column-wrap > .elementor-widget-wrap {
-    		margin: 0 25%;
-		}
-		footer.footer {
-				margin-top: -30%;
-		}
-		.copyright p {
-				font-size: 16px;
-				line-height: normal;
-    		height: 0;
-		} */
+    footer .box {
+        width: 50%;
+        margin: auto;
+    }
+
+    footer .copyright img {
+        width: 100%;
+        height: 100%;
+    }
+
+    footer .social-all {
+        text-align: center;
+    }
+
+    footer .social-all .social {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    footer .box .text {
+        display: flex;
+        margin: 7% 0 8%;
+        justify-content: center;
+    }
+
+    footer .box .title {
+        text-align: center;
+    }
+
+    .elementor-element-2c535fd.elementor-column>.elementor-column-wrap>.elementor-widget-wrap {
+        margin: 0 25%;
+    }
+
+    footer.footer {
+        margin-top: -30%;
+    }
+
+    .copyright p {
+        font-size: 16px;
+        line-height: normal;
+        height: 0;
+    }
 }
 
 @media (min-width: 993px) {
@@ -1220,3 +1234,126 @@ i.icon_svg.gtm {
     height: 80px;
     width: 144px;
 }
+
+/* start cam nhan hoc vien */
+
+/* .camnhanhocvien .carousel-dot {
+    text-align: center;
+    margin-left: 30%;
+} */
+
+.camnhanhocvien .fade-slide {
+    opacity: 1;
+    animation-name: fade-slide;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+}
+
+.camnhanhocvien .carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.camnhanhocvien .box {
+    height: 350px;
+    background: url(https://sedu.daisyweb.dev/wp-content/uploads/2022/06/image-170.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    padding-left: 3%;
+    padding-bottom: 6%;
+}
+
+.camnhanhocvien .card {
+    position: relative;
+    width: 290px;
+    height: 320px;
+    background-color: #fff;
+    border-radius: 6px;
+    z-index: 2;
+}
+
+.camnhanhocvien .overflow {
+    padding: 10% 10% 3% 10%;
+}
+
+.camnhanhocvien .overflow div {
+    overflow: hidden;
+}
+
+.camnhanhocvien .card img {
+    width: 100%;
+    height: 80%;
+    transition: transform 0.5s ease;
+}
+
+.camnhanhocvien .square {
+    position: absolute;
+    top: 56%;
+    left: 5.5%;
+    z-index: 1;
+}
+
+.camnhanhocvien .card p {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    line-height: 150%;
+    margin: auto;
+}
+
+.camnhanhocvien .card p:last-child {
+    font-weight: 300;
+    font-style: italic;
+}
+
+.camnhanhocvien .text i {
+    font-size: 140%;
+}
+
+.camnhanhocvien .line {
+    width: 160px;
+    height: 25px;
+    border-bottom: 3.5px solid #FF6456;
+    margin-bottom: 3%;
+}
+
+.camnhanhocvien .text i {
+    color: #ACAEB3;
+    float: left;
+}
+
+.camnhanhocvien .text i:last-child {
+    float: right;
+}
+
+.camnhanhocvien .text {
+    width: 650px;
+    height: 240px;
+    margin-left: 5%;
+}
+
+.camnhanhocvien .text p {
+    width: 600px;
+    height: 100px;
+    margin: 6% 5% 1% 5%;
+}
+
+.camnhanhocvien .dot-carousel {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.camnhanhocvien .dot-carousel-active,
+.dot-carousel:hover {
+    background-color: #717171;
+}
+
+/* end cam nhan hoc vien */
