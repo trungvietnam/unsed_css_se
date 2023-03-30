@@ -1,3 +1,40 @@
+.btn-primary-color {
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #F65 0, #FF515C 40.26%, #F36 100%);
+    border: 1px solid #FFF;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+    color: #FFF;
+    width: 208px;
+    line-height: 52px;
+}
+
+.primary_color {
+    background: linear-gradient(90deg, #FF6456 0, #FF3565 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    line-height: normal;
+    line-height: normal;
+}
+
+button#submit-button {
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #F65 0, #FF515C 40.26%, #F36 100%);
+    border: 1px solid #FFF;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+    color: #FFF;
+    width: 208px;
+}
+
 a.wp-block-latest-posts__post-title {
     text-overflow: ellipsis;
     overflow: hidden;
@@ -156,7 +193,7 @@ a.elementor-post__read-more {
 
 .btn-big {
     width: 170px;
-    height: 45px;
+    height: 50px;
 }
 
 .btn-small {
@@ -546,8 +583,13 @@ a.elementor-post__read-more {
     }
 
     .camnhanhocvien .carousel .box {
-        width: 70%;
+        width: 79%;
         height: 70%;
+        background: url(https://sedu.daisyweb.dev/wp-content/uploads/2022/06/image-170.png);
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        padding-left: 6%;
+        padding-bottom: 6%;
     }
 
     .camnhanhocvien .carousel .box .card {
@@ -564,6 +606,10 @@ a.elementor-post__read-more {
     .camnhanhocvien .carousel .box img {
         width: 40%;
         height: 22%;
+    }
+
+    .camnhanhocvien .carousel {
+        flex-direction: column;
     }
 
     .camnhanhocvien .carousel .box .square {
@@ -781,8 +827,13 @@ a.elementor-post__read-more {
     }
 
     .camnhanhocvien .carousel .box {
-        width: 70%;
+        width: 79%;
         height: 70%;
+        background: url(https://sedu.daisyweb.dev/wp-content/uploads/2022/06/image-170.png);
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        padding-left: 6%;
+        padding-bottom: 6%;
     }
 
     .camnhanhocvien .carousel .box .card {
@@ -1009,4 +1060,163 @@ a.elementor-post__read-more {
         transition: visibility 0.3s linear,
             opacity 0.3s linear;
     }
+}
+
+
+
+/* icon svg position */
+
+.support-live {
+    z-index: 1;
+    position: fixed;
+    width: 60px;
+    top: 40%;
+    bottom: 25%;
+    right: 0;
+}
+
+.giohoc {
+    font-size: 16px !important;
+    /*     display: table; */
+    font-weight: 400 !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    line-height: 60px !important;
+}
+
+.icon_svg {
+    background-image: url('https://sedu.daisyweb.dev/wp-content/uploads/2022/11/icon.svg');
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.thoigian {
+    background-position: 0px -310px;
+    height: 85px;
+    width: 85px;
+}
+
+.giatien {
+    background-position: -85px -310px;
+    height: 85px;
+    width: 85px;
+}
+
+.wordpress {
+    background-position: -280px -537px;
+
+}
+
+.site_audit {
+    background-position: -652px -537px;
+}
+
+i.customer_journey {
+    background-position: -267px 0;
+    height: 90px;
+    width: 90px;
+}
+
+.link_building {
+    background-position: -93px -422px;
+
+}
+
+.gsc {
+    background-position: -279px -423px;
+
+}
+
+i.icon_svg.gtm {
+    background-position: 0px -537px;
+
+}
+
+.size93 {
+    height: 93px;
+    width: 93px;
+}
+
+.ga4 {
+    background-position: -558px -423px;
+
+}
+
+.data {
+    background-position: -186px -424px;
+
+}
+
+.security {
+    background-position: 0px -423px;
+
+}
+
+.traffic {
+    background-position: -92px -536px;
+
+}
+
+.entity {
+    background-position: -186px -423px;
+
+}
+
+.content {
+    background-position: -373px -535px;
+
+}
+
+.logo_trang {
+    background-position: -19px -963px;
+    height: 168px;
+    width: 293.1px;
+}
+
+.chipseo {
+    background-position: -144px -790px;
+    height: 80px;
+    width: 139px;
+}
+
+.daisy_web_white {
+    background-position: -429px -798px;
+    height: 80px;
+    width: 144px;
+}
+
+.daisy_web {
+    background-position: -284px -798px;
+    height: 80px;
+    width: 144px;
+}
+
+.se_media {
+    background-position: 0px -797px;
+    height: 80px;
+    width: 143px;
+}
+
+.global_inet_white {
+    background-position: -435.1px -704px;
+    height: 80px;
+    width: 143px;
+}
+
+.global_inet {
+    background-position: -290px -704px;
+    height: 80px;
+    width: 143px;
+}
+
+.se_digi_white {
+    background-position: -145.2px -704px;
+    height: 80px;
+    width: 144px;
+}
+
+.se_digi {
+    background-position: 0px -704px;
+    height: 80px;
+    width: 144px;
 }

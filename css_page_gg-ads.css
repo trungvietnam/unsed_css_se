@@ -500,7 +500,18 @@ ul.lylich li {
         padding-right: 0%;
         width: 100%;
     }
-
+    .carousel .content .text p {
+        width: 80%;
+        height: 70%;
+        margin: auto;
+        text-align: center;
+    }
+    .carousel .content .text {
+        text-align: center;
+        width: 90%;
+        height: 100%;
+        margin: auto;
+    }
     .ggads .slider .left h1 {
         font-size: 28px;
         font-weight: bold;
@@ -552,7 +563,9 @@ ul.lylich li {
         height: 50px;
         display: none;
     }
-
+    .camnhanhocvien .carousel :nth-child(1){
+        order: 1;
+    }
     .ggads .slider .right img {
         float: none;
         width: 60%;
